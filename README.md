@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎮 PS3-XMB Desktop Environment
+#   PS3-XMB Desktop Environment
 
 [![C](https://img.shields.io/badge/Language-C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![Make](https://img.shields.io/badge/Build-Makefile-%234CC3D9.svg?style=for-the-badge&logo=gnu&logoColor=white)](https://www.gnu.org/software/make/)
@@ -12,7 +12,7 @@ A lightweight desktop environment inspired by the iconic PlayStation 3 XrossMedi
 
 ---
 
-## 🚀 Installation & Setup
+##   Installation & Setup
 
 <steps>
 

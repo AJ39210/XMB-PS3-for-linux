@@ -29,7 +29,9 @@ Make sure the resulting <code>Icons</code> folder is placed directly in the **ro
 <step title="Build the Environment" subtitle="Step 2">
 Open your terminal in the root directory and run the clean build commands:
 
+
 make clean & make
+
 
 After building you can test the Desktop Enviroment by doing :
 

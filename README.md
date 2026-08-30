@@ -1,3 +1,34 @@
-In a rush rn so i dont have time to make a full readme.
+<div align="center">
 
-decompress the Icons folder (Icons.zip) and be sure to but the Icons folder in the same folder as where core background sound makefile menu.xml are. ( in the root of the dir)
+# 🎮 PS3-XMB Desktop Environment
+
+[![C](https://img.shields.io/badge/Language-C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![Make](https://img.shields.io/badge/Build-Makefile-%234CC3D9.svg?style=for-the-badge&logo=gnu&logoColor=white)](https://www.gnu.org/software/make/)
+[![Platform](https://img.shields.io/badge/Platform-Linux%20%2F%20Unix-informational?style=for-the-badge&logo=linux&logoColor=white)](https://www.kernel.org/)
+
+A lightweight desktop environment inspired by the iconic PlayStation 3 XrossMediaBar (XMB).
+
+</div>
+
+---
+
+## 🚀 Installation & Setup
+
+<steps>
+
+<step title="Prepare the Icons" subtitle="Step 1">
+Decompress the <code>Icons.zip</code> archive. 
+
+Make sure the resulting <code>Icons</code> folder is placed directly in the **root directory** alongside your core files:
+* <code>background</code>
+* <code>sound</code>
+* <code>makefile</code>
+* <code>menu.xml</code>
+</step>
+
+<step title="Build the Environment" subtitle="Step 2">
+Open your terminal in the root directory and run the clean build commands:
+
+```bash
+make clean
+make

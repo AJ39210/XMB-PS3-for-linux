@@ -20,7 +20,7 @@ A lightweight desktop environment inspired by the iconic PlayStation 3 XrossMedi
 <step title="Prepare the Icons" subtitle="Step 1">
 Decompress the <code>Icons.zip</code> archive. 
 
-Compatible whit:<code>x86_64,(coming soon arm64)<code>
+Compatible whit:<code>x86_64,(coming soon arm64)<code> .
 
 Make sure the resulting <code>Icons</code> folder is placed directly in the **root directory** alongside your core files:
 * <code>background</code>

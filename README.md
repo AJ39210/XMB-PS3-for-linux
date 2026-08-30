@@ -3,6 +3,7 @@
 # PS3-XMB Desktop Environment
 
 [![C](https://img.shields.io/badge/Language-C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![C++](https://img.shields.io/badge/Language-C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://en.wikipedia.org/wiki/C%2B%2B)
 [![Make](https://img.shields.io/badge/Build-Makefile-%234CC3D9.svg?style=for-the-badge&logo=gnu&logoColor=white)](https://www.gnu.org/software/make/)
 [![Platform](https://img.shields.io/badge/Platform-Linux%20%2F%20Unix-informational?style=for-the-badge&logo=linux&logoColor=white)](https://www.kernel.org/)
 

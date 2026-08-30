@@ -1,6 +1,6 @@
 <div align="center">
 
-#   PS3-XMB Desktop Environment
+# PS3-XMB Desktop Environment
 
 [![C](https://img.shields.io/badge/Language-C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![Make](https://img.shields.io/badge/Build-Makefile-%234CC3D9.svg?style=for-the-badge&logo=gnu&logoColor=white)](https://www.gnu.org/software/make/)
@@ -26,22 +26,20 @@ Make sure the resulting <code>Icons</code> folder is placed directly in the **ro
 * <code>menu.xml</code>
 </step>
 
-<step title="Build the Environment" subtitle="Step 2">
+<step title="Build, Test, and Install" subtitle="Step 2">
 Open your terminal in the root directory and run the clean build commands:
 
-
-make clean & make
-
-
-After building you can test the Desktop Enviroment by doing :
-
 ```bash
-make run 
+make clean && make
 
-Or, install the desktop enviroment to your pc :
+After building, you can test the desktop environment by doing:
+Bash
 
-make install     (To uninstall do make uninstall) 
+make run
 
+Or, install the desktop environment to your PC:
+Bash
 
+make install
 
-
+(To uninstall later, simply do make uninstall)

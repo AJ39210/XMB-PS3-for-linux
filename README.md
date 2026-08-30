@@ -33,7 +33,6 @@ Open your terminal in the root directory and run the clean build commands:
 make clean && make
 
 After building, you can test the desktop environment by doing:
-Bash
 
 make run
 

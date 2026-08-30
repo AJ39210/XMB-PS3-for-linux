@@ -37,7 +37,6 @@ After building, you can test the desktop environment by doing:
 make run
 
 Or, install the desktop environment to your PC:
-Bash
 
 make install
 

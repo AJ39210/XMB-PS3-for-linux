@@ -1,0 +1,60 @@
+<XMB>
+    <!-- Apps Column with Genre Folders -->
+    <Column id="apps" title="Apps" icon="Icons/systematic/png/default.png">
+        <Folder name="Games" icon="Icons/systematic/png/folder.png">
+            <Item name="Steam" exec="sh -c 'STEAM_FRAME_FORCE_CLOSE=1 steam' &amp;" />
+            <Item name="Microsoft Flight Simulator Suite" exec="steam steam://rungameid/5004030 &amp;" />
+            <Item name="PineconeMC" exec="flatpak run io.github.elyprismlauncher.ElyPrismLauncher &amp;" />
+            <Item name="Sober" exec="flatpak run org.vinegarhq.Sober &amp;" />
+        </Folder>
+        <Folder name="Internet" icon="Icons/systematic/png/folder.png">
+            <Item name="Firefox Web Browser" exec="firefox &amp;" />
+            <Item name="FileZilla" exec="filezilla &amp;" />
+            <Item name="Thunderbird Mail" exec="thunderbird &amp;" />
+            <Item name="Discord" exec="discord &amp;" />
+            <Item name="Transmission" exec="transmission-gtk &amp;" />
+            <Item name="Warpinator" exec="warpinator &amp;" />
+        </Folder>
+        <Folder name="Programming" icon="Icons/systematic/png/folder.png">
+            <Item name="Visual Studio Code" exec="code &amp;" />
+        </Folder>
+        <Folder name="Office" icon="Icons/systematic/png/folder.png">
+            <Item name="LibreOffice Writer" exec="libreoffice --writer &amp;" />
+            <Item name="LibreOffice Calc" exec="libreoffice --calc &amp;" />
+            <Item name="LibreOffice Impress" exec="libreoffice --impress &amp;" />
+            <Item name="Document Viewer" exec="xreader &amp;" />
+            <Item name="Text Editor" exec="xed &amp;" />
+        </Folder>
+        <Folder name="Sound &amp; Video" icon="Icons/systematic/png/folder.png">
+            <Item name="Celluloid" exec="celluloid &amp;" />
+            <Item name="Hypnotix" exec="hypnotix &amp;" />
+            <Item name="Rhythmbox" exec="rhythmbox &amp;" />
+            <Item name="Pix" exec="pix &amp;" />
+        </Folder>
+    </Column>
+
+    <!-- Settings Column (Administration, Preferences, System Config) -->
+    <Column id="settings" title="Settings" icon="Icons/systematic/png/menu_quickmenu.png">
+        <Item name="System Settings" exec="env WEBKIT_DISABLE_COMPOSITING_MODE=1 cinnamon-settings &amp;" />
+        <Item name="Display Settings" exec="cinnamon-settings display &amp;" />
+        <Item name="Sound Settings" exec="cinnamon-settings sound &amp;" />
+        <Item name="Network Configuration" exec="nm-connection-editor &amp;" />
+        <Item name="Power Management" exec="cinnamon-settings power &amp;" />
+        <Item name="Driver Manager" exec="driver-manager &amp;" />
+        <Item name="Software Manager" exec="mintinstall &amp;" />
+        <Item name="Update Manager" exec="mintupdate &amp;" />
+        <Item name="Timeshift" exec="timeshift-launcher &amp;" />
+        <Item name="Disks" exec="gnome-disks &amp;" />
+        <Item name="Terminal" exec="gnome-terminal &amp;" />
+        <Item name="Backgrounds" exec="cinnamon-settings backgrounds &amp;" />
+        <Item name="Themes" exec="cinnamon-settings themes &amp;" />
+        <Item name="Font Selection" exec="cinnamon-settings fonts &amp;" />
+        <Item name="Mouse and Touchpad" exec="cinnamon-settings mouse &amp;" />
+        <Item name="Keyboard" exec="cinnamon-settings keyboard &amp;" />
+        <Item name="Exit XMB" exec="killall xmb_desktop" />
+        <Item name="Scan for apps" exec="ACTION_SCAN_APPS" />
+        <Item name="Reboot System" exec="ACTION_REBOOT" />
+        <Item name="Shut Down" exec="ACTION_SHUTDOWN" />
+        <Item name="Logout Session" exec="pkill -u $USER" />
+    </Column>
+</XMB>
